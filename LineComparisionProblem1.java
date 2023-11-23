@@ -14,7 +14,6 @@ public class LineComparisonProblem1 {
         Scanner sc = new Scanner(System.in);
 
         // Input the coordinates of the two points for the line
-
         System.out.print("Enter the x-coordinate of the first point of line 1: ");
         double x1Line1= sc.nextDouble();
 
@@ -43,6 +42,5 @@ public class LineComparisonProblem1 {
         double lengthLine1 = calculatingLength(x1Line1, y1Line1, x2Line1, y2Line1);
         double lengthLine2 = calculatingLength(x1Line2, y1Line2, x2Line2, y2Line2);
 
-  
-        }
+      }
    }
