@@ -1,6 +1,4 @@
 import java.util.*;
-
-
 public class LineComparisonProblem1 {
 
     //adding a function to calculate length
