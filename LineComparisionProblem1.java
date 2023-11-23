@@ -42,5 +42,12 @@ public class LineComparisonProblem1 {
         double lengthLine1 = calculatingLength(x1Line1, y1Line1, x2Line1, y2Line1);
         double lengthLine2 = calculatingLength(x1Line2, y1Line2, x2Line2, y2Line2);
 
-      }
+        
+        //adding if else to compare length of the lines
+        if(lengthLine1 == lengthLine2) System.out.println("Length of both lines is equal");
+        else if(lengthLine1 > lengthLine2) System.out.println("Length of line 1 is greater");
+        else  System.out.println("Length of line 2 is greater");
+        
+
+       }
    }
